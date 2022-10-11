@@ -1,5 +1,144 @@
+:root {
+  --Gold: #d5966c;
+  --White: #ffffff;
+  --AlmostBlack: #151515;
+  --DarkGrey: #444444;
+  --BigShouldersDisplay: "Big Shoulders Display", cursive;
+  --Outfit: "Outfit", sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: var(--BigShouldersDisplay);
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--Outfit);
+  line-height: 28px;
+  font-size: 18px;
+}
+
+address {
+  font-family: var(--Outfit);
+  line-height: 26px;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* add background color to see the mobile version clearer */
+  background-color: grey;
+}
+/* header */
+.mainContainer {
+  background-color: var(--White);
+  width: 375px;
+}
+
+/* Media Queries for Header */
+@media screen and (min-width: 600px) {
+  .mainContainer {
+    width: 750px;
+  }
+}
+.headerImage img {
+  width: 100%;
+}
+
+/* Content Container */
+.contentContainer {
+  padding: 20px;
+}
+
+.headerContainer h1 {
+  font-size: 60px;
+  line-height: 55px;
+}
+
+.headerContainer p {
+  margin: 20px 0 20px 0;
+  color: var(--DarkGrey);
+}
+
+button {
+  font-family: var(--BigShouldersDisplay);
+  background-color: var(--AlmostBlack);
+  cursor: pointer;
+  border: none;
+  width: 260px;
+  height: 72px;
+  font-size: 20px;
+  color: var(--White);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 20px 0;
+  letter-spacing: 3px;
+  line-height: 24px;
+}
+
+button img {
+  padding: 0 0 0 60px;
+}
+
+/* Gallery Container */
+.galleryContainer {
+  line-height: 0%;
+}
+
+.imageGridContainer img {
+  width: 100%;
+}
+
+.galleryContainer h2 {
+  padding: 20px 0 0 0;
+  font-size: 50px;
+  line-height: 45px;
+}
+
+.galleryContainer p {
+  margin: 20px 0 0 0;
+  counter-reset: var(--DarkGrey);
+}
+
+/* Welcome Box */
+.welcomeBox {
+  background: var(--AlmostBlack);
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.welcomeBox h3 {
+  font-size: 50px;
+  color: var(--White);
+}
+
+.welcomeBox p {
+  margin: 10px;
+  color: var(--White);
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  color: var(--White);
+  background-color: var(--AlmostBlack);
+}
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
