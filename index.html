@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <!-- Title -->
     <title>Modern Art Gallery</title>
 
@@ -20,87 +20,101 @@
   <body>
     <!-- Main - mainContainer -->
     <main class="mainContainer">
-
-    <!-- header -->
-    <header>
-      <picture class="headerImage">
-        <source media="(min-width: 400px)" srcset="./assets/mobile/image-hero@2x.jpg">
-        <img src="./assets/mobile/image-hero.jpg" alt="headerImage" />
-      </picture>
-    </header>
+      <!-- header -->
+      <header>
+        <picture class="headerImage">
+          <source
+            media="(min-width: 750px)"
+            srcset="./assets/mobile/image-hero@2x.jpg" />
+          <img src="./assets/mobile/image-hero.jpg" alt="headerImage" />
+        </picture>
+      </header>
 
       <!-- Content Container -->
       <div class="contentContainer">
-      <!-- Header Container -->
-      <div class="headerContainer">
-       
-        <h1>Modern <br/>Art Gallery</h1>
-        <p>
-          The arts in the collection of the Modern Art Gallery all started from
-          a spark of inspiration. Will these pieces inspire you? Visit us and
-          find out.
-        </p>
+        <!-- Header Container -->
+        <div class="headerContainer">
+          <h1>Modern <br />Art Gallery</h1>
+          <p>
+            The arts in the collection of the Modern Art Gallery all started
+            from a spark of inspiration. Will these pieces inspire you? Visit us
+            and find out.
+          </p>
 
-        <a href="location.html">
-          <button>our location<img src="assets/icon-arrow-right.svg" alt="buttonRightArrow"></button>
-        </a>
+          <a href="location.html">
+            <button>our location</button>
+            <img src="assets/icon-arrow-right.svg" alt="buttonRightArrow" />
+          </a>
+        </div>
+
+        <!-- galleryContainer -->
+        <div class="galleryContainer">
+          <picture class="imageGrid1">
+            <img src="" alt="" srcset="" />
+            <img
+              src="./assets/mobile/image-grid-1.jpg"
+              alt="imageGridGallery1" />
+          </picture>
+          <h2>
+            Your day <br />
+            at the gallery
+          </h2>
+          <p>
+            Wander through our distinct collections and find new insights about
+            our artists. Dive into the details of their creative process.
+          </p>
+          <div class="imageGridContainer">
+            <picture class="imageGrid2">
+              <img src="" alt="" srcset="" />
+              <img src="" alt="" srcset="" />
+              <img
+                src="./assets/mobile/image-grid-2.jpg"
+                alt="imageGridGallery2" />
+            </picture>
+
+            <picture class="imageGrid3">
+              <img src="" alt="" srcset="" />
+              <img src="" alt="" srcset="" />
+              <img
+                src="./assets/mobile/image-grid-3.jpg"
+                alt="imageGridGallery3 " />
+            </picture>
+          </div>
+        </div>
+        <div class="welcomeBox">
+          <h3>Come &amp; be inspired</h3>
+          <p>
+            We’re excited to welcome you to our gallery and see how our
+            collections influence you.
+          </p>
+        </div>
       </div>
-    
 
-    <!-- galleryContainer -->
-    <div class="galleryContainer">
-        <picture class="imageGrid1">
-          <img src="" alt="" srcset="" />
-          <img src="./assets/mobile/image-grid-1.jpg" alt="imageGridGallery1" />
-        </picture>
-        <h2>Your day <br /> at the gallery</h2>
-        <p>
-          Wander through our distinct collections and find new insights about
-          our artists. Dive into the details of their creative process.
-        </p>
-      <div class="imageGridContainer">
-        <picture class="imageGrid2">
-          <img src="" alt="" srcset="" />
-          <img src="" alt="" srcset="" />
-          <img src="./assets/mobile/image-grid-2.jpg" alt="imageGridGallery2" />
-        </picture>
+      <!-- Footer -->
+      <footer>
+        <div class="FooterLogo">
+          <picture>
+            <source
+              media="(min-width: 750px)"
+              srcset="./assets/logo-dark.svg" />
+            <img
+              src="./assets/logo-light.svg"
+              alt="Light Logo Modern Art Gallery" />
+          </picture>
+        </div>
 
-        <picture class="imageGrid3">
-          <img src="" alt="" srcset="" />
-          <img src="" alt="" srcset="" />
-          <img
-            src="./assets/mobile/image-grid-3.jpg"
-            alt="imageGridGallery3 " />
-        </picture>
-      </div> 
-      
-    </div>
-      <div class="welcomeBox">
-        <h3>Come &amp; be inspired</h3>
-        <p>
-          We’re excited to welcome you to our gallery and see how our
-          collections influence you.
-        </p>
-      </div>
-  </div>
-
- 
-
-    <!-- Footer -->
-    <footer>
-      <div>
-        <h2>Modern Art Gallery</h4>
-        <address>
-          The Modern Art Gallery is free to all visitors and open seven days a
-          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
-        </address>
-      </div>
-      <div class="socialMediaIcons">
-        <img src="./assets/icon-facebook.svg" alt="socialMediaIconFacebook" />
-        <img src="./assets/icon-instagram.svg" alt="socialMediaIconInstagram" />
-        <img src="./assets/icon-twitter.svg" alt="socialMediaIconTwitter" />
-      </div>
-    </footer>
-  </main>
+        <div class="footerSpan">
+          <p>
+            The Modern Art Gallery is free to all visitors and open seven days a
+            week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+          </p>
+        </div>
+        <div class="socialMediaIcons">
+          <img src="./assets/icon-facebook.svg" alt="socialMediaIconFacebook" />
+          <img src="./assets/icon-instagram.svg" alt="socialMediaIconInsta" />
+          <img src="./assets/icon-twitter.svg" alt="socialMediaIconTwitter" />
+        </div>
+      </footer>
+    </main>
   </body>
 </html>

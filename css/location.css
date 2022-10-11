@@ -34,6 +34,39 @@ main {
   flex-direction: column;
 }
 
-#map {
-  height: 200px;
+a {
+  position: absolute;
+}
+
+a img {
+  background: var(--Gold);
+  width: 56px;
+  height: 72px;
+}
+
+button {
+  position: inherit;
+  font-family: var(--BigShouldersDisplay);
+  background-color: var(--AlmostBlack);
+  cursor: pointer;
+  border: none;
+  width: 208px;
+  height: 72px;
+  font-size: 20px;
+  color: var(--White);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.addressContainer {
+  background-color: var(--AlmostBlack);
+  /* top: 550px; */
+  width: 100%;
+  height: 493px;
+}
+
+footer {
+  background-color: var(--Gold);
+  height: 336px;
 }

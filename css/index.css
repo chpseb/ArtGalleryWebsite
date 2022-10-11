@@ -16,8 +16,7 @@
 h1,
 h2,
 h3,
-h4,
-a {
+h4 {
   font-family: var(--BigShouldersDisplay);
   text-transform: uppercase;
 }
@@ -26,12 +25,6 @@ p {
   font-family: var(--Outfit);
   line-height: 28px;
   font-size: 18px;
-}
-
-address {
-  font-family: var(--Outfit);
-  line-height: 26px;
-  font-size: 16px;
 }
 
 body {
@@ -72,7 +65,7 @@ button {
   background-color: var(--AlmostBlack);
   cursor: pointer;
   border: none;
-  width: 260px;
+  width: 204px;
   height: 72px;
   font-size: 20px;
   color: var(--White);
@@ -84,8 +77,10 @@ button {
   line-height: 24px;
 }
 
-button img {
-  padding: 0 0 0 60px;
+.headerContainer a img {
+  width: 56px;
+  height: 72px;
+  position: rel;
 }
 
 /* 768px - Media Queries for Header */
