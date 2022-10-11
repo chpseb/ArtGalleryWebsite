@@ -1,0 +1,39 @@
+:root {
+  --Gold: #d5966c;
+  --White: #ffffff;
+  --AlmostBlack: #151515;
+  --DarkGrey: #444444;
+  --BigShouldersDisplay: "Big Shoulders Display", cursive;
+  --Outfit: "Outfit", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: var(--BigShouldersDisplay);
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--Outfit);
+  line-height: 28px;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#map {
+  height: 200px;
+}
