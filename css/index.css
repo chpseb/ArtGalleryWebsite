@@ -60,7 +60,7 @@ body {
   color: var(--DarkGrey);
 }
 
-.headerContainer a {
+.headerContainer span {
   position: relative;
   display: flex;
   align-items: center;
@@ -82,17 +82,11 @@ body {
 }
 
 .headerContainer img {
+  display: flex;
+  padding-inline-end: 20px;
   background-color: var(--Gold);
   height: 72px;
   width: 56px;
-}
-
-.buttonRightArrow {
-  size: 26px;
-  background-color: var(--Gold);
-  width: 56px;
-  height: 72px;
-  position: rel;
 }
 
 /* 768px - Media Queries for Header */
