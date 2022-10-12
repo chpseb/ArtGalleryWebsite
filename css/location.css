@@ -44,8 +44,15 @@ a img {
   height: 72px;
 }
 
-button {
+.mapContainer a {
   position: inherit;
+  text-decoration: none;
+}
+
+.mapContainer span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--BigShouldersDisplay);
   background-color: var(--AlmostBlack);
   cursor: pointer;
@@ -56,7 +63,6 @@ button {
   color: var(--White);
   text-align: center;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .addressContainer {
