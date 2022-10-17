@@ -28,51 +28,116 @@ p {
   font-size: 18px;
 }
 
-main {
+body {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-a {
+.mainContainer {
+  width: 375px;
+}
+/* 768px - Media Queries for Main container */
+@media (min-width: 768px) {
+  .mainContainer {
+    width: 768px;
+  }
+}
+
+/* Map Image */
+.map {
+  line-height: 0;
+}
+
+/* Button */
+
+.buttonAnchor {
   position: absolute;
-}
-
-a img {
-  background: var(--Gold);
-  width: 56px;
-  height: 72px;
-}
-
-.mapContainer a {
-  position: inherit;
+  display: inline-flex;
   text-decoration: none;
 }
 
-.mapContainer span {
+.buttonText {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--BigShouldersDisplay);
   background-color: var(--AlmostBlack);
+  color: var(--White);
   cursor: pointer;
   border: none;
   width: 208px;
   height: 72px;
   font-size: 20px;
-  color: var(--White);
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
+.leftArrowButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Gold);
+  height: 72px;
+  width: 56px;
+}
+
+/* Adress Container */
 .addressContainer {
   background-color: var(--AlmostBlack);
-  /* top: 550px; */
   width: 100%;
   height: 493px;
+  padding: 20px;
 }
 
+.ourLocation {
+  color: var(--White);
+  font-size: 50px;
+  font-weight: 900;
+  margin: 10px 0 30px 0;
+}
+
+.streetNumber {
+  color: var(--Gold);
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+
+.stateCountry {
+  font-family: var(--Outfit);
+  color: var(--White);
+  margin-bottom: 20px;
+}
+
+.openingText {
+  font-size: 18px;
+  color: var(--White);
+}
+
+/* Footer */
 footer {
-  background-color: var(--Gold);
+  bottom: 0;
   height: 336px;
+  padding: 20px;
+  background-color: var(--Gold);
+}
+
+.logoFooter img {
+  padding-top: 10px;
+  margin: 20px;
+}
+
+.footerSpan {
+  margin: 20px;
+}
+
+.socialMediaIcons {
+  margin: 10px;
+  display: flex;
+}
+
+.socialMediaIcons img {
+  padding: 10px;
 }

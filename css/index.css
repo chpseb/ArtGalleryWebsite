@@ -61,11 +61,12 @@ body {
   color: var(--DarkGrey);
 }
 
-.headerContainer a {
-  position: relative;
+.buttonAnchor {
+  display: inline-flex;
   text-decoration: none;
+  align-items: center;
 }
-.headerContainer span {
+.buttonText {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,11 +82,12 @@ body {
   text-transform: uppercase;
   margin: 20px 0;
   letter-spacing: 3px;
-  line-height: 24px;
 }
-.headerContainer img {
+
+.rightArrowImage {
   display: flex;
-  padding-inline-end: 20px;
+  align-items: center;
+  justify-content: center;
   background-color: var(--Gold);
   height: 72px;
   width: 56px;

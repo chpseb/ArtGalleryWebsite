@@ -18,41 +18,41 @@
   </head>
 
   <body>
-    <main>
+    <main class="mainContainer">
       <!-- Map Container -->
-      <div class="mapContainer">
-        <a href="index.html">
-          <img
-            src="assets/icon-arrow-left.svg"
-            alt="buttonRightArrow"
-            class="LeftArrowButton" />
-          <button>back to home</button>
-        </a>
 
-        <div class="map">
-          <picture>
-            <img src="./assets/mobile/image-map.png" alt="" />
-          </picture>
-        </div>
+      <a href="index.html" class="buttonAnchor">
+        <span class="leftArrowButton">
+          <img src="assets/icon-arrow-left.svg" alt="" />
+        </span>
+        <span class="buttonText">back to home</span>
+      </a>
+
+      <div class="map">
+        <picture>
+          <img src="./assets/mobile/image-map.png" alt="map" />
+        </picture>
       </div>
 
       <div class="addressContainer">
-        <h1>Our location</h1>
-        <h2>99 King Street</h2>
-        <address>Newport RI 02840 United States of America</address>
-        <p>
+        <h1 class="ourLocation">Our location</h1>
+        <h2 class="streetNumber">99 King Street</h2>
+        <div class="stateCountry">
+          <p>Newport</p>
+          <p>RI 02840</p>
+          <p>United States of America</p>
+        </div>
+        <p class="openingText">
           Our newly opened gallery is located near the Edward King House on 99
           King Street, the Modern Art Gallery is free to all visitors and open
-          seven days a week from 8am to 9pm. Modern Art Gallery The Modern Art
-          Gallery is free to all visitors and open seven days a week from 8am to
-          9pm. Find us at 99 King Street, Newport, USA.
+          seven days a week from 8am to 9pm.
         </p>
       </div>
 
       <!-- Footer -->
       <footer>
-        <div class="FooterLogo">
-          <picture>
+        <div>
+          <picture class="logoFooter">
             <source
               media="(min-width: 750px)"
               srcset="./assets/logo-dark.svg" />
@@ -69,9 +69,15 @@
           </p>
         </div>
         <div class="socialMediaIcons">
-          <img src="./assets/icon-facebook.svg" alt="socialMediaIconFacebook" />
-          <img src="./assets/icon-instagram.svg" alt="socialMediaIconInsta" />
-          <img src="./assets/icon-twitter.svg" alt="socialMediaIconTwitter" />
+          <img
+            src="./assets/icon-facebook-dark.svg"
+            alt="socialMediaIconFacebook" />
+          <img
+            src="./assets/icon-instagram-dark.svg"
+            alt="socialMediaIconInsta" />
+          <img
+            src="./assets/icon-twitter-dark.svg"
+            alt="socialMediaIconTwitter" />
         </div>
       </footer>
     </main>
