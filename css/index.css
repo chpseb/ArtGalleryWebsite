@@ -157,13 +157,18 @@ footer p {
     width: 768px;
   }
 
-  .headerImage img {
-    width: 55%;
-  }
-
   .headerContainer {
     position: absolute;
-    left: 540px;
-    bottom: 400px;
+    justify-content: space-between;
+    top: 145px;
+    left: 389px;
+    width: 339px;
+    height: 410px;
+  }
+
+  .headerImage img {
+    position: absolute;
+    width: 437px;
+    height: 700px;
   }
 }
