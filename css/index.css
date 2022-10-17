@@ -158,7 +158,7 @@ footer p {
   }
 
   .headerContainer {
-    position: absolute;
+    position: relative;
     justify-content: space-between;
     top: 145px;
     left: 389px;
