@@ -171,4 +171,16 @@ footer p {
     width: 437px;
     height: 700px;
   }
+
+  .galleryContainer {
+    align-items: flex-end;
+    position: relative;
+    top: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .galleryText {
+    position: absolute;
+  }
 }
